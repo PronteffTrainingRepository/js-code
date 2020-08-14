@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="txt1" placeholder="Username" />
+    <br><br>
+    <input type="password" id="pswd" placeholder="Password"/>
+    <br>
+    <button onclick="fn1()" id="bt1">LOGIN</button>
+
+    <script>
+        
+        function fn1()
+        {
+            var a=document.getElementById("txt1").value;
+            var b=document.getElementById("pswd").value;
+            if(a=="shubham"&& b=="sharma")
+           {
+            alert("username and password 'MATCHED'");
+           }
+           else
+           {
+               alert("username and password 'NOT MATCHED'");
+           }
+        }
+    </script>
+    <script >
+        console.log('hello')
+    </script>
+</body>
+</html>
